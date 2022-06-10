@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kYrMkoHc+hIJ7kuYeD5j4L04pL9dArMkfgUHs5zT23Lk8NOY4bnBejldAw4vBcUKw88d0NGounZObLU8TwnjiA==",
+  "success": true,
+  "projectFilePath": "/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-six/LocalBusinessApi.Solution/LocalBusinessApi/LocalBusinessApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/ramenimo/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
