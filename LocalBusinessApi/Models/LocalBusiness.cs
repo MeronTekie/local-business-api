@@ -1,6 +1,6 @@
 namespace LocalBusinessApi.Models
 {
-  public class LocalBusines
+  public class LocalBusiness
   {
     public int LocalBusinessApiId { get; set; }
     public string  Name { get; set; }
