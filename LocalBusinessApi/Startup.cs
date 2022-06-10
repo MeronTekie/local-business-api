@@ -24,6 +24,8 @@ namespace LocalBusinessApi
             services.AddDbContext<LocalBusinessContext>(opt =>
                 opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
             services.AddControllers();
+            //Swagger
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,6 +35,10 @@ namespace LocalBusinessApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //Enable middleware
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             // app.UseHttpsRedirection();
 

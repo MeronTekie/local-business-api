@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qbq80lLRzvYlSFIzciClWIFs91qLiK49EQW6CnKjFO6uPITlx7qQYsGJ2/RQ1Pu2U57JRN1LmcLPpbFe1/fjJg==",
+  "dgSpecHash": "tdXCo5h0h7LcgseUsKJLmFH48f6RYPAG8wndatFuX/lpIZxOOyvE7FTbW8Y5JjDeF8feZCNlJy7IxovRAQZC1A==",
   "success": true,
   "projectFilePath": "/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-six/LocalBusinessApi.Solution/LocalBusinessApi/LocalBusinessApi.csproj",
   "expectedPackageFiles": [
@@ -23,10 +23,10 @@
     "/Users/ramenimo/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.1/pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
-    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore/6.3.1/swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swagger/6.3.1/swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.3.1/swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.3.1/swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
