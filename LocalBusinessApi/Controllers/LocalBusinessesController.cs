@@ -19,10 +19,19 @@ namespace LocalBusinessApi.Controllers
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<LocalBusiness>>> Get()
+    public async Task<List<LocalBusiness>> Get(string type, int rating)
     {
-      var list = await _db.LocalBusinesses.ToListAsync();
-      return list;
+
+      IQueryable<LocalBusiness> query = _db.LocalBusinesses.AsQueryable();
+      if(type != null)
+      {
+        query = query.Where(e => e.Type == type);
+      }
+      if(rating > 0)
+      {
+        query = query.Where(e => e.Rating >= rating);
+      }
+      return await query.ToListAsync();
     }
     [HttpGet("{id}")]
     public async Task<ActionResult<LocalBusiness>> GetBusiness(int id)
