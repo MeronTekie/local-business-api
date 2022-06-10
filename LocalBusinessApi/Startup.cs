@@ -5,6 +5,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using LocalBusinessApi.Models;
+using System;
+using System.Reflection;
+using System.IO;
+using Microsoft.OpenApi.Models;
 
 namespace LocalBusinessApi
 {
@@ -21,11 +25,25 @@ namespace LocalBusinessApi
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddDbContext<LocalBusinessContext>(opt =>
-                opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
-            services.AddControllers();
-            //Swagger
-            services.AddSwaggerGen();
+          services.AddDbContext<LocalBusinessContext>(opt =>
+              opt.UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
+          services.AddControllers();
+          //Swagger
+          services.AddSwaggerGen(c=>
+          {
+            c.SwaggerDoc("v1", new OpenApiInfo
+            {
+            Version = "v1",
+            Title = "Local Business API",
+            Description ="An API built to help locals to be able to get information of any local business in their community",
+            Contact = new OpenApiContact
+            {
+              Name ="Meron G.Tekie",
+              Email ="ramenimo@gmail.com"
+              
+            }
+            });
+          });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
