@@ -24,14 +24,27 @@ namespace LocalBusinessApi.Controllers
       var list = await _db.LocalBusinesses.ToListAsync();
       return list;
     }
-      [HttpPost]
+    [HttpGet("{id}")]
+    public async Task<ActionResult<LocalBusiness>> GetBusiness(int id)
+    {
+      var localbusiness = await _db.LocalBusinesses.FindAsync(id);
+      if(localbusiness == null)
+      {
+        return NotFound();
+      }
+      return localbusiness;
+
+    }
+
+    [HttpPost]
     public async Task<ActionResult<LocalBusiness>> Post(LocalBusiness localbusiness)
     {
       _db.LocalBusinesses.Add(localbusiness);
       await _db.SaveChangesAsync();
-      return CreatedAtAction("Post",new{id= localbusiness.LocalBusinessId},localbusiness);
-    }
+      return CreatedAtAction("Post",new{id=localbusiness.LocalBusinessId},localbusiness);
 
+    } 
+    
 
 
   }
