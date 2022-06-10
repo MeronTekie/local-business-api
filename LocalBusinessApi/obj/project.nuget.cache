@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "LGYNVjZBn3uU1MSIgJoXEX3zBdrsvC8XzBrXU0gizvc/DU/JBYXJsvCLJo7LrGsCOGHQjmQoXG97o81mOK4LIg==",
+  "dgSpecHash": "qbq80lLRzvYlSFIzciClWIFs91qLiK49EQW6CnKjFO6uPITlx7qQYsGJ2/RQ1Pu2U57JRN1LmcLPpbFe1/fjJg==",
   "success": true,
   "projectFilePath": "/Users/ramenimo/Desktop/Epicodous/C-sharp/Projects/week-six/LocalBusinessApi.Solution/LocalBusinessApi/LocalBusinessApi.csproj",
   "expectedPackageFiles": [
+    "/Users/ramenimo/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
-    "/Users/ramenimo/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.1/microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
+    "/Users/ramenimo/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/ramenimo/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
