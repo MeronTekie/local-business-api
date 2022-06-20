@@ -1,10 +1,11 @@
-#### By Meron G. Tekie,
+<h1 font-size ="35px" font-family ="Snell Roundhand, cursive"> Local Business API</h1>
+# By Meron G. Tekie,
 
-## A web application api built to store information of local business that run with in the community
+### A web application api built to store information of local business that run with in the community
 
 ## 🖥️ Technologies Used
 
-<<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="35" height="35"/> <br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="35" height="35"/> <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" width="35" height="35"/> <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="35" height="35"/> <br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="35" height="35"/> <br>
@@ -25,13 +26,12 @@ It is a web API designed with a purpose of enabling local community to add local
 - Open the project in your preferred text editor, we recommend VSCode.
 - In the root directory, confirm there is a .gitignore file
 
-- Make sure to ingnore sensitive data/file so they do not get pushed to remote repository
+- Make sure to ignore sensitive data/file so they do not get pushed to remote repository
 - Add:
 
   ```
   */obj/
   */bin/
-  *.vscode
   */appsettings.json
   ```
 
@@ -40,7 +40,7 @@ It is a web API designed with a purpose of enabling local community to add local
 
 - To create the database please do as follows:
 
-  - First create a file using the _touch_ command in your command line, at the root of the project directory called "appsettings.json" and in that file add the following code, but substituting the text in the brackets for your own information.
+  - First create a file  at the root of the project directory called "appsettings.json" and  add the following code to connect your project to the  local database, 
 
   ```
       {
@@ -63,9 +63,11 @@ It is a web API designed with a purpose of enabling local community to add local
 
   - `dotnet ef database update`
   - `dotnet run`
+- The above code  will create a new database in your local host  with tables designed to store information related to the project.
 
 - To interact with the local host website navigate to the project directory and run `dotnet run`or `dotnet watch run`
 - Click on <http://localhost:5001/> and you will be directed to the Swagger UI which is very user friendly and easy to walk through.
+- The image below is the expected page when you run it on your local browser.
 
 <img src ="LocalBusinessApi/img/swagger.png" width="100%" height="400">
 
@@ -76,4 +78,4 @@ It is a web API designed with a purpose of enabling local community to add local
 ## License
 
 Licensed under the [MIT License](LICENSE).
-Copyright (c) 2022 <br>Meron Tekie [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)]
+Copyright (c) 2022 <br>Meron G.Tekie [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)]
