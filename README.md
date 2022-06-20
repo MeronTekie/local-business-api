@@ -67,7 +67,7 @@ It is a web API designed with a purpose of enabling local community to add local
 - To interact with the local host website navigate to the project directory and run `dotnet run`or `dotnet watch run`
 - Click on <http://localhost:5001/> and you will be directed to the Swagger UI which is very user friendly and easy to walk through.
 
-<img src ="LocalBusinessApi/img/swagger.png" width="225" height="325">
+<img src ="LocalBusinessApi/img/swagger.png" width="100%" height="400">
 
 ## Known Bugs 🐛
 
